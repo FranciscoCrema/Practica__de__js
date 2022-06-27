@@ -7,7 +7,7 @@ while (poner == "si") {
     console.log(`${numero} + ${i} = ${tabla}`);
   }
 
-  for (let i = 1; i <= 10; i++) {
+  for (let i = 1; i <= 15; i++) {
     let tabla = numero - i;
     console.log(`${numero} - ${i} = ${tabla}`);
   }
