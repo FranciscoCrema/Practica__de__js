@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: #f4cc70;
+}
+
+/* Configuracion del nav */
+nav {
+  background-color: black;
+  height: 80px;
+  width: 100%;
+}
+
+.logo {
+  height: 50px;
+  width: 80px;
+  border-radius: 50%;
+  padding: 20px 30px;
+  margin-bottom: 20px;
+}
+
+.container__nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container__nav ul {
+  list-style-type: none;
+  float: right;
+}
+
+.container__nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 17px;
+}
+
+.container__nav ul li a {
+  color: #f4cc70;
+  padding: 3px 13px;
+}
+
+/* Footer */
+footer{
+    background-color: gray;
+}
+
+.container__redes {
+  display: flex;
+  justify-content: center;
+}
+
+.container__redes i {
+  width: 100px;
+  height: 100%;
+  margin: 0 15px;
+}
